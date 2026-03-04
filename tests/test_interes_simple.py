@@ -5,7 +5,7 @@ from interes_simple import interes_simple
 # Caso correcto
 def test_interes_correcto():
     resultado = interes_simple(1000, 0.05, 2)
-    assert resultado == 200.0
+    assert resultado == 100.0
 
 
 #Caso límite
